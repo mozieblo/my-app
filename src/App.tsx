@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Describe from './components/Describe';
+import Weather from './components/Weather';
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <img src={logo} className="App-logo" alt="logo" />
         <Describe />
         <p>My App</p>
+        <Weather />
       </header>
     </div>
   );
